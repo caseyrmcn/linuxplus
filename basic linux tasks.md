@@ -20,4 +20,4 @@
 ## File Editing Commands
 | Command | Description | Examples |
 |---|---|---|
-| vim | starts a powerful and default linux editor | 1. `vim file1` to open a text file in CLI \n 2.press i to enter inster mode \n 3. press ESC to leave insert mode \n 4.:wq to save and quit |
+| vim | starts a powerful and default linux editor | 1. `vim file1` to open a text file in CLI <br/> 2.press i to enter inster mode <br/> 3. press ESC to leave insert mode <br/> 4.:wq to save and quit |
