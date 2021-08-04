@@ -25,10 +25,10 @@
 | gedit | gui text editor | GUI application |
 
 ## Power management
-| Command | Description | Examples |
-|---|---|---|
+| Command | Description |
+|---|---|
 | shutdown | shuts down the computer|
-| -h now |
-| -h -t 90 |
-| -r now |
-| reboot |
+| -h now | shuts down the system with no delay|
+| -h -t 90 | shuts down after 90 seconds |
+| -r now | reboots system with no delay
+| reboot | works the same as `shutdown -r now` | 
