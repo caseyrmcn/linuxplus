@@ -7,7 +7,7 @@
 | cd | changes your current working directory | `cd /var/log` changes directory to /var/log `cd ..` moves up 1 directory |
 | touch | updates timestamp on existing file, but can also create an empty file  | `touch file1` updates timestamp on file1 or creates a file named file1 |
 | cp | copies a file or directory to another location | `cp file1 file2` copies the contents of file1 to file2 |
-| mkdir | creates a directory | `mkdir newdir` creats a new directory calles newdir |
+| mkdir | creates a directory | `mkdir newdir` creates a new directory called newdir |
 
 
 ## File Viewing Commands
@@ -31,4 +31,27 @@
 | -h now | shuts down the system with no delay|
 | -h -t 90 | shuts down after 90 seconds |
 | -r now | reboots system with no delay
-| reboot | works the same as `shutdown -r now` | 
+| reboot | works the same as `shutdown -r now` |
+| sleep | used to pause system activities for specified time. `sleep 1000` will sleep for 1000 seconds |
+
+## Super User Commands
+| Command | Description |
+|---|---|---|
+| su -(user) | su switches user credentials su -root switches credentials with root
+| sudo | run as superuser |
+
+## Shell History Commands
+ `history`  outputs the most recently entered commands in a list format
+
+## Tab Completion
+typing `his` and pressing tab will fill in the rest of the `history` commands
+typing `cd /home/user1/dow` will automatically fill the path to /home/user1/downloads if such a Directory exists
+
+
+# Linux documentation
+
+## Manuals pages
+man pages contain complete documentation that is specific to each linux command.the man pages are availible on Linux systems by default.
+
+
+******page 16
