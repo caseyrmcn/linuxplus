@@ -20,4 +20,15 @@
 ## File Editing Commands
 | Command | Description | Examples |
 |---|---|---|
-| vim | starts a powerful and default linux editor | 1. `vim file1` to open a text file in CLI \ 2.press i to enter inster mode <br/> 3. press ESC to leave insert mode <br/> 4.:wq to save and quit |
+| vim | starts a powerful and default linux editor | 1. `vim file1` to open a text file in CLI <br/> 2.press i to enter inster mode <br/> 3. press ESC to leave insert mode <br/> 4.:wq to save and quit |
+| nano | simple user friendly text editor | 1. `nano file1` <br/> 2. enter text <br/> 3. CTRL+O to write out changes <br/> 4. CTRL+X to quit |
+| gedit | gui text editor | GUI application |
+
+## Power management
+| Command | Description | Examples |
+|---|---|---|
+| shutdown | shuts down the computer|
+| -h now |
+| -h -t 90 |
+| -r now |
+| reboot |
